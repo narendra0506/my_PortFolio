@@ -1,38 +1,110 @@
-.App {
+body{
+  font-family: 'Roboto',sans-serif;
+}
+.data{
+  padding: 0px;
+}
+.imgbox {
+  background-image: url("./Components/image/header-background.png");
+  /* background-color: rgba(75, 67, 67, 0.954); */
+}
+.fa{
+  color: #b5b5b5;
+}
+.databox {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(2px);
+}
+.icon {
+  font-size: 1.20rem;
+  padding: 0.3rem;
+  color: white;
+}
+.name{
+  color: #4F4F4F;
+}
+.textname{
+  font-size: 2.5rem;
+}
+/* .btncv{
+  border: 3px solid white;
+  background-color: black;
+  color: white;
+} */
+.shadow-1-strong {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 0 rgba(0, 0, 0, .2) !important;
+}
+
+.box {
+  height: 1.8rem;
+  width: 1.98rem;
+  border: 5px solid blue;
+  border-radius: 50%;
+}
+
+.cont {
+  border-left: 1px solid gray;
+  margin-left: -13px;
+}
+
+.text-teal {
+  color: #20c997;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+.text-muted {
+  color: #757575;
+}
+
+.text-secondary {
+  color: #b23cfd !important;
+  font-size: 25px;
+}
+
+.contacticon {
+  font-size: 18px;
+}
+
+.footer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h4 {
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon1 {
+  color: #757575;
+  padding: 10px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.f1 {
+  margin-top: -10px;
+}
+
+.btn-light:hover {
   color: white;
+  background-color: black;
 }
-
-.App-link {
-  color: #61dafb;
+.contactdata{
+  text-decoration: none;
+  color:#4F4F4F;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iframe1{
+  min-height: 400px;
+}
+.bio{
+  text-align: center;
+}
+.bio1{
+  margin-left: 5.40rem;
+}
+.skill{
+  height: 1.37rem;
+  border-radius: 1.07rem;
 }
